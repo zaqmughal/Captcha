@@ -10,7 +10,7 @@ define([
         var total = rand_1 + rand_2;
 
         if(total) {
-            $('.form').submit(function (event) {
+            $('form').submit(function (event) {
                 var error = null;
                 var user_input = parseInt($('#num_captcha').val());
 
