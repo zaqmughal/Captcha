@@ -53,7 +53,7 @@ class Post
         \Magento\Contact\Controller\Index\Post $subject,
         \Closure $proceed
     ) {
-        if ($this->dataHelper->isEnabled()) {
+        if ($this->dataHelper->isEnabled() && $this->dataHelper->useGoogle()) {
             $request = $subject->getRequest();
             $recaptchaResponse = $request->getPost('g-recaptcha-response');
 
