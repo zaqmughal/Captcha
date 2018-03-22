@@ -1,0 +1,15 @@
+#num_captcha {
+    width: 45px;
+    display: inline-block;
+}
+
+.num_captcha_container {
+    background-color: #f8f8f8;
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.equation {
+    margin-top: 5px;
+}
